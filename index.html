@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megha Gunasekara Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62cc2dd288.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Picsart_24-11-13_17-33-58-977.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer and Animator</p>
+            <h1>Hi, I'm<span> Megha</span> <br> Gunasekara<br> From Sri lanka</h1>
+        </div>
+    </div>
+</div>
+<!-----------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pp.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hello! Welcome to my web page. I'm Megha Panchali Gunasekara. I am 19 years old. I live in kandy.
+                   I'm Studying at SLTC Research University and I'm following cyber security Degree.
+                   And I am also a web Developer and an Animator/p>
+
+                   <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/app Interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Animation projects</span><br>Creating short animated videos</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                      <li><span>2023 - Current</span><br>UI/UX Designer at PMG online Store</li>
+                      <li><span>2023 - current</span><br>Rookie Animator at Jiah Animations</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                      <li><span>2024</span><br>Human resorces management degree at IMBS Campus</li>
+                      <li><span>2021</span><br>Web Development diploma at University of Colombo</li>
+                      <li><span>2023</span><br>Animation and digital art diploma at University of shanghai</li>
+                  </ul>
+                </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-----------------Service--------------->
+<div id="Services">
+  <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Web design involves crafting visually attractive and user-friendly websites that effectively 
+                convey a brand's message and captivate visitors. It integrates layout, color, typography, and interactive elements to provide a
+                 smooth, responsive experience on various devices. Quality web design boosts both usability and visual appeal, simplifying the 
+                 navigation and interaction for users on the site.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>UI/UX design is centered on creating intuitive and engaging digital experiences that prioritize the needs of the user.
+                 UI, or User Interface design,
+                 pertains to the visual appeal and layout of a product, ensuring that it is both aesthetically pleasing and easy to navigate. </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Animation projects</h2>
+            <p>An animation project involves creating moving images through a sequence of illustrations or photographs displayed
+                 rapidly to create the illusion of motion. It combines various elements like characters, backgrounds, sound effects, 
+                 and dialogue to tell a story or convey a message.</p>
+             <a href="#">Learn more</a>
+         </div>
+
+     </div>
+ </div>
+</div>
+<!-------------------Portfolio---------------->
+<div id="Portfolio">
+ <div class="container">
+     <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+         <div class="Work">
+             <img src="images/ui.jpg">
+             <div class="layer">
+                 <h3>UI UX</h3>
+                 <p>Check out for my new UI UX Projects</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/anime.jpg">
+                <div class="layer">
+                    <h3>Animation Projects</h3>
+                    <p>check out for my Animation projects I have being working on.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/proj.jpg">
+                <div class="layer">
+                    <h3>Web Development projects</h3>
+                    <p>Check out for my new Web projects</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------Contact----------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> meghapanchalee.gunasekara@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0740779622</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Dhanuja Bimsara Balasooriya-CV.PDF.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="Contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>c\Copyright @ Megha Gunasekara <i class="fa-solid fa-heart"></i> made with Easy Tutorials</p>
+
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbzGOqk3mGm2o-AtD0nXnbHChlf4hGSN2sWZdM1rgTbAzPVZgDclSRY_CgkAWPTNN16N/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
